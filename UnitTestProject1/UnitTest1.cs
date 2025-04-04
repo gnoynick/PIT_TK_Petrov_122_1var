@@ -63,7 +63,7 @@ namespace UnitTestProject1
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void TestGrade_OutOfRange_Task1()
+        public void TestGrade_OutOfRange_Task()
         {
             int total;
             GradingLogic.CalculateGrade(11, 20, 10, 5, out total);  
